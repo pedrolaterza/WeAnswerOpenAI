@@ -1,44 +1,23 @@
-# OpenAI API Quickstart - Node.js example app
+# WE ANSWER - Solution for Answering Professional Emails
+We Answer is an innovative solution that helps companies and professionals to respond to emails quickly and efficiently, using artificial intelligence based on the same GPT Chat model, using the OpenAI API. With We Answer, you can save time and increase productivity, ensuring that all emails are answered with quality and professionalism.
 
-This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). Check out the tutorial or follow the instructions below to get set up.
+How We Answer works is simple and intuitive. Just configure your name, the basic response to the email you want to reply to and finally the email that should be answered. From there, you can quickly respond to emails, without having to type the same message over and over again.
 
-![Text box that says name my pet with an icon of a dog](https://user-images.githubusercontent.com/10623307/213887080-b2bc4645-7fdb-4dbd-ae42-efce00d0dc29.png)
+![EMAIL IMG](/emailfirstscreen.png)
 
 
-## Setup
+## How it works
 
-1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/) (Node.js version >= 14.6.0 required)
 
-2. Clone this repository
+## 1. Put your Name or Company 
 
-3. Navigate into the project directory
+## 2. Write the basic answer
+ 
+## 3. Paste the email to be answered
 
-   ```bash
-   $ cd openai-quickstart-node
-   ```
+![EMAIL IMG](/1.png)
 
-4. Install the requirements
+## Asnwer
+![EMAIL IMG](/2.png)
 
-   ```bash
-   $ npm install
-   ```
-
-5. Make a copy of the example environment variables file
-
-   On Linux systems: 
-   ```bash
-   $ cp .env.example .env
-   ```
-   On Windows:
-   ```powershell
-   $ copy .env.example .env
-   ```
-6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
-
-7. Run the app
-
-   ```bash
-   $ npm run dev
-   ```
-
-You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+Thank you, I hope you liked it.
