@@ -1,5 +1,6 @@
 import { Configuration, OpenAIApi } from "openai";
 
+
 const configuration = new Configuration({
   apiKey: process.env.OPENAI_API_KEY,
 });
@@ -45,6 +46,8 @@ export default async function (req, res) {
     return;
   } 
 
+  ////////////////////////
+
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
@@ -74,7 +77,7 @@ function generatePrompt(nameOrCompany,basicAnswer,emailText) {
   let capitalizedBasicAnswer = basicAnswer;
   let capitalizedEmailText = emailText;
 
-  return `Act as an AI-powered Professional Email Generator, Answer this email like a formal human using basic answer information, write a professional formal message in the language you receive the Formalemail.you must be able to understand the context of the email to reply to it.
+  return `Act as an AI-powered Professional Email Generator, Answer the following email like a formal human using basic answer information, write a professional formal message in the language you receive the Formalemail. You must be able to understand the context of the email to reply to it.
 
 Name: Pedro Laterza.
 Basic answer: yes we can schedule a call.
